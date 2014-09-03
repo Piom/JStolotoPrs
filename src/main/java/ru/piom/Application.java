@@ -23,7 +23,7 @@ public class Application {
 
             Map<Integer, Integer> numbers = new HashMap<Integer, Integer>();
 
-            for (int i = 1; i < 10; i++) {
+            for (int i = 1; i <= 939; i++) {
                 url = URL_ARG + i;
                 System.out.println("i = " + i);
                 Document doc  = Jsoup.connect(url).get();
